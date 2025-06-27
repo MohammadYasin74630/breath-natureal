@@ -10,9 +10,9 @@ function Navbar() {
         <div className="navbar-start">
           <a className="inline-flex items-center gap-4 cursor-pointer" href="#">
             <img className="max-w-12" src="/plant-logo-1.webp" alt="" />
-            <span className="text-3xl font-black max-[425px]:hidden">
+            <h1 className="inline-block text-3xl font-black max-[425px]:hidden">
               Planto.
-            </span>
+            </h1>
           </a>
         </div>
         <div className="navbar-center text-2xl flex gap-10 xl:gap-14 max-lg:hidden">
