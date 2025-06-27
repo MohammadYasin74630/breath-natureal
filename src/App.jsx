@@ -6,6 +6,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      {/* <div className="h-[150vh]"></div> */}
     </>
   );
 }
