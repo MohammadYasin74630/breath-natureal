@@ -3,7 +3,7 @@ import customer1 from "../../assets/images/customer-1.webp";
 function BannerReview() {
   return (
     <>
-      <div className="bg-white/5 backdrop-blur-xl md:w-max p-8 md:p-11 border-2 rounded-[45px] border-[#787c76] shadow-sm max-xl:mt-16 xl:-mt-32">
+      <div className="bg-white/5 backdrop-blur-xl sm:w-max p-8 md:p-11 border-2 rounded-[45px] border-[#787c76] shadow-sm max-xl:mt-16 xl:-mt-32">
         <div className="flex gap-[28px]">
           <img
             className="w-16 h-16 rounded-full object-cover"
