@@ -1,12 +1,30 @@
-# React + Vite
+## Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Before you begin, ensure you have [Node.js](https://nodejs.org/) and [Git](https://git-scm.com) installed.
 
-Currently, two official plugins are available:
+```bash
+# Clone this repository
+git clone https://github.com/MohammadYasin74630/breath-natureal.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Navigate to the project directory
+cd breath-natureal
 
-## Expanding the ESLint configuration
+# Install dependencies
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br/>
+
+**To Start the development server:**
+```bash
+npm start
+```
+Runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+<br/>
+
+**To Build for production:**
+```bash
+npm run build
+```
+Builds the app for production to the `dist` folder.

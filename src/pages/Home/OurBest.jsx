@@ -42,6 +42,8 @@ function BestItem({ activeIndex, slideCount }) {
           className="-mt-32 sm:-mt-40"
           src={`${plant1}`}
           alt="A potted plant with vibrant green leaves set against a solid black background."
+          width="512"
+          height="512"
         />
 
         <div className="text-white/75 font-semibold space-y-10">

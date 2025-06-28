@@ -14,6 +14,8 @@ function TrendyPlants() {
           className="xl:max-w-[601px] lg:max-w-md object-contain -mt-44"
           src={`${plant2}`}
           alt="A potted plant with vibrant green leaves set against a solid black background."
+          width="1563"
+          height="1563"
         />
 
         <div className="font-semibold space-y-6">
@@ -34,12 +36,14 @@ function TrendyPlants() {
           </div>
         </div>
       </div>
-      
+
       <div className="lg:flex items-center justify-evenly max-lg:text-center border-2 border-[#787c76] rounded-[151px] bg-white/5 backdrop-blur-sm px-4 lg:px-32 max-xl:py-20 mt-40">
         <img
           className="xl:max-w-[601px] lg:max-w-md object-contain -mt-44 order-1"
           src={`${plant3}`}
           alt="A potted plant with vibrant green leaves set against a solid black background."
+          width="1563"
+          height="1563"
         />
 
         <div className="font-semibold space-y-6">

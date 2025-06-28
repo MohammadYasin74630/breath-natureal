@@ -9,7 +9,7 @@ function Navbar() {
       <div className="navbar sm:px-8 py-8 ">
         <div className="navbar-start">
           <a className="inline-flex items-center gap-4 cursor-pointer" href="#">
-            <img className="max-w-12" src="/plant-logo-1.webp" alt="" />
+            <img className="max-w-12" src="/plant-logo-1.webp" alt="" width="512" height="512" />
             <h1 className="inline-block text-3xl font-black max-[425px]:hidden">
               Planto.
             </h1>

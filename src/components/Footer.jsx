@@ -5,7 +5,7 @@ function Footer() {
         <div className="w-11/12 mx-auto flex flex-wrap justify-between gap-11 py-[92px]">
           <div>
             <div className="inline-flex flex-wrap items-center justify-center gap-3 mb-11">
-              <img className="max-w-[94px]" src="/plant-logo-2.webp" alt="" />
+              <img className="max-w-[94px]" src="/plant-logo-2.webp" alt="" width="512" height="512" />
               <h2 className="text-[56px] opacity-75 font-black">Planto.</h2>
             </div>
 

@@ -9,6 +9,7 @@ function BannerReview() {
             className="w-16 h-16 rounded-full object-cover"
             src={`${customer1}`}
             alt="A woman with dark hair dressed in a black top is seen as a customer, looking straight."
+             width="1999" height="2500"
           />
 
           <div>

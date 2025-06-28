@@ -23,6 +23,8 @@ function BannerItem() {
       <img
         src={`${plant1}`}
         alt="A potted plant with vibrant green leaves set against a solid black background."
+        width="1563"
+        height="1563"
       />
 
       <div>
@@ -83,8 +85,10 @@ function Banner() {
           </SwiperSlide>
         </Swiper>
 
-        <div className="custom-swiper-pagination mt-8 space-x-2" style={{ textAlign: 'center' }}></div>
-        
+        <div
+          className="custom-swiper-pagination mt-8 space-x-2"
+          style={{ textAlign: "center" }}
+        ></div>
       </div>
     </div>
   );
