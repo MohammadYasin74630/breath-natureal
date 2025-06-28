@@ -1,4 +1,5 @@
 import bgImage from "../../assets/images/bg-plant.webp";
+import Footer from "../../components/Footer";
 import Banner from "./Banner";
 import BannerReview from "./BannerReview";
 import CustomerReview from "./CustomerReview";
@@ -24,6 +25,7 @@ function Home() {
         <CustomerReview />
         <OurBest />
       </div>
+      <Footer />
     </>
   );
 }
