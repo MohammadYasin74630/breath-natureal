@@ -1,12 +1,26 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-.custom-swiper-pagination .swiper-pagination-bullet{
-    background-color: white !important;
-    opacity: 1;
-    cursor: pointer;
+.custom-swiper-pagination .swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 1;
+  cursor: pointer;
 }
 .swiper-pagination-bullet-active {
-    width: 20px !important;
-    border-radius: 10px !important;
+  width: 20px !important;
+  border-radius: 10px !important;
+}
+
+.border-gradient {
+  background: 
+        linear-gradient(#272e22, #272e22) padding-box, /* inner background */ 
+        linear-gradient(305deg, #7a7e77, #00000000, #7a7e77) border-box; /* gradient border */
+  background-clip: padding-box, border-box;
+}
+
+.border-gradient-1 {
+  background: 
+        linear-gradient(#272e22, #272e22) padding-box, 
+        linear-gradient(140deg, #7a7e77, #00000000, #7a7e77) border-box;
+  background-clip: padding-box, border-box;
 }
