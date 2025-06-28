@@ -2,6 +2,7 @@ import bgImage from "../../assets/images/bg-plant.webp";
 import Banner from "./Banner";
 import BannerReview from "./BannerReview";
 import CustomerReview from "./CustomerReview";
+import OurBest from "./OurBest";
 import TopSelling from "./TopSelling";
 import TrendyPlants from "./TrendyPlants";
 
@@ -21,6 +22,7 @@ function Home() {
       <div className="w-11/12 mx-auto">
         <TopSelling />
         <CustomerReview />
+        <OurBest />
       </div>
     </>
   );

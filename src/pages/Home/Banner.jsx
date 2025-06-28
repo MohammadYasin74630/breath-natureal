@@ -5,9 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useSwiper } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
-import "swiper/css";
-import "swiper/css/pagination";
-
 const SwiperButtonNext = () => {
   const swiper = useSwiper();
   return (
@@ -22,7 +19,7 @@ const SwiperButtonNext = () => {
 
 function BannerItem() {
   return (
-    <div className="">
+    <div>
       <img
         src={`${plant1}`}
         alt="A potted plant with vibrant green leaves set against a solid black background."

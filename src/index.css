@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-.custom-swiper-pagination .swiper-pagination-bullet {
+.custom-swiper-pagination .swiper-pagination-bullet,
+.custom-swiper-pagination-2 .swiper-pagination-bullet {
   background-color: white !important;
   opacity: 1;
   cursor: pointer;
