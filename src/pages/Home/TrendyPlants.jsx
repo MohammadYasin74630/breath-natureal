@@ -24,7 +24,7 @@ function TrendyPlants() {
           </p>
           <p className="text-4xl">Rs. 599/-</p>
 
-          <div className="flex items-center gap-4 lg:gap-8 w-max max-lg:mx-auto">
+          <div className="flex max-[300px]:flex-col items-center gap-4 lg:gap-8 w-max max-lg:mx-auto">
             <button className="text-[28px] font-normal border-2 px-10 py-0.5 rounded-xl cursor-pointer active:scale-90 transition-[scale]">
               Explore
             </button>
@@ -50,7 +50,7 @@ function TrendyPlants() {
           </p>
           <p className="text-4xl">Rs. 599/-</p>
 
-          <div className="flex items-center gap-4 lg:gap-8 w-max max-lg:mx-auto">
+          <div className="flex max-[300px]:flex-col items-center gap-4 lg:gap-8 w-max max-lg:mx-auto">
             <button className="text-[28px] font-normal border-2 px-10 py-0.5 rounded-xl cursor-pointer active:scale-90 transition-[scale]">
               Explore
             </button>
